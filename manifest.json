@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "TiTle handler",
+    "version": "1.0",
+    "description": "Get the title of the current tab.",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon":{
+        "16":"title.png",
+    "32":"title.png",
+    "48":"title.png"
+      }
+     
+},
+"icons":{
+    "16":"title.png",
+    "32":"title.png",
+    "48":"title.png"
+}  }
